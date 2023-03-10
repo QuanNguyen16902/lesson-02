@@ -1,0 +1,119 @@
+body{
+  background-color: #D5D5D5;
+}
+#background{
+  background-color: #E9E7EA;
+  max-witdh: 100%;
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+ 
+}
+ 
+img{
+  border: 2px solid black;
+  width:200px;
+  height:200px ;
+  display: flex;
+  border-radius: 50%;
+  object-fit:cover;
+  margin-left: 30%;
+  
+}
+#skill {
+  height:30px;
+  line-height: 30px;
+  padding-height: 30px;
+  border: 2px solid #CDCDCD;
+  background-color: #F5F5F5;
+  margin-bottom:10px;
+  
+}
+#infor{
+  background: #999999	;
+  position: relative;
+  min-height:30px;  
+  border: 1px solid grey;
+  border-width: 2px;
+  margin: auto;
+  display:grid;
+  grid-template-columns: 25% 70%;
+}
+#Language{
+   height:30px;
+  line-height: 30px;
+  padding-height: 30px;
+  border: 2px solid #CDCDCD;
+  background-color: #F5F5F5;
+ 
+}
+#interest{
+   height:30px;
+  line-height: 30px;
+  padding-height: 30px;
+  border: 2px solid #CDCDCD;
+  background-color: #F5F5F5;
+
+}
+h3{
+  text-decoration: underline;
+}
+#name{
+  font-family:Time New Roman;
+   
+  padding-left:0;
+}
+#education{
+ height:30px;
+  line-height: 30px;
+  padding-height: 30px;
+  border: 2px solid #CDCDCD;
+  background-color: #F5F5F5;
+ 
+ 
+}
+
+#Profile{
+  
+  display: grid;
+  grid-template-columns: 50% 50%;
+  
+}
+#English{
+  position: relative;
+  background: #99FFFF;
+  width: 20px;
+  height:16px;
+  display: grid;
+  justify-content: center;
+  
+}
+#Korean{
+   position: relative;
+  background: #99FFFF;
+  width: 20px;
+  height:16px;
+  display: grid;
+  justify-content: center;
+  
+}
+#back{
+   
+  background: #CCCCCC;
+  width: 20px;
+  height:16px;
+  justify-content: center;
+}
+#back2{
+   background: #CCCCCC;
+}
+
+
+#experience{
+  height:30px;
+  line-height: 30px;
+  border: 2px solid #CDCDCD;
+  background-color: #F5F5F5;
+  margin-bottom:10px;
+ 
+}
