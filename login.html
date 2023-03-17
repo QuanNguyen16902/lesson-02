@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            border-style: solid black;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        
+
+        #content {
+            display: none;
+            width: 500px;
+            height: 500px;
+            background-color: #f7f6f6;
+            display: block;
+            margin: 0 auto;
+            border: 1px solid turquoise;
+            text-align: center;
+            text-shadow: #f7f6f6;
+            border-radius: 50px;
+        }
+        #form{
+            color: turquoise;
+        }
+        #infor{
+            float: left;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        input{
+            color: black ;
+            width: 400px;
+            height: 40px;
+        
+            border-color: turquoise;
+            border-radius: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            
+        }
+        label{
+           float: left;
+           font-weight: 200;
+           font-style: italic;
+        }
+        #fg{
+            float: left;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        button{
+            margin-top: 40px;
+            width: 400px;
+            height: 40px;
+            background-color: turquoise;
+            border: turquoise;
+            border-radius: 10px;
+        }
+        button:hover{
+            background: wheat;
+        }
+        a{
+            font: optional;
+            font-weight: 200px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: none;
+            
+        }
+       
+    </style>
+     <script
+     type="text/javascript"
+     src="https://ajax.googleapis.com/ajax/libs/jQuery/2.1.3/jQuery.min.js"
+   >
+   </script>
+   <script type="text/javascript" language="javascript">
+     $(document).ready(function () {
+       $("div").click(function () {
+         alert("Hello, world!");
+       });
+     });
+   </script>
+</head>
+
+<body>
+
+         
+        <div id = "content"> 
+            <h1 id = "form">Login Form</h1>
+            <div id ="infor">
+                <label>Email address</label><br>
+                <input id="tendangnhap"> <br>
+                <label>Password</label><br>
+                <input type="password" id="Matkhau"> <br>
+                <a href="..." id = "fg">Forgot Password?</a><br>
+            </div>
+            <button type="submit" id = "btn">Login</button>
+           
+<p>Don't have an account? <a href="...">Sign Up</a></p>
+        </div>
+  
+    
+
+
+        <script>
+            function func(x) {
+              console.log(typeof x, arguments.length);
+            }
+            func();
+            func(1);
+            func("1", "2", "3");
+          </script>
+
+</body>
+
+</html>
